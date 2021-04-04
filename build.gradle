@@ -21,19 +21,3 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-ext {
-    projectName = 'RunningTrackerApp'
-    projectDesc = 'A wrapper library for basic Android M system permissions logic'
-
-    githubUrl = 'https://github.com/googlesamples/easypermissions'
-
-    mavenGroup = 'pub.devrel'
-    mavenArtifactId = 'easypermissions'
-    mavenVersion = '3.0.0'
-
-    bintrayOrg = 'easygoogle'
-
-    compileSdk = 30
-    targetSdk = 30
-}
