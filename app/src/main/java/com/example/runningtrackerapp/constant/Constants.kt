@@ -25,4 +25,9 @@ object Constants {
     const val MAP_ZOOM = 15f
 
     const val UPDATE_TIMER_INTERVAL = 50L
+
+    const val SHARED_PREFERENCES_NAME = "shared_pref"
+    const val FIRST_TOGGLE_RUN = "first_toggle_run"
+    const val PERSON_NAME = "person_name"
+    const val PERSON_WEIGHT = "person_weight"
 }

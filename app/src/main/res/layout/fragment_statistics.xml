@@ -112,5 +112,12 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAverageSpeedInfo"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

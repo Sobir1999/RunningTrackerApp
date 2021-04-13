@@ -97,4 +97,5 @@ dependencies {
 
     implementation 'com.google.maps.android:maps-utils-ktx:2.4.0'
 
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
 }
